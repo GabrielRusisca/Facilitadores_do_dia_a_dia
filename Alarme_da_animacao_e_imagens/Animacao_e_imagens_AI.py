@@ -4,7 +4,7 @@ from imagens_AI import imagens_AI
 
 def main():
     e = 'oi'
-    path_to_phrases = r"C:\Users\grusi\Gabriel\Programacao\MeusProjetos\Mini_Programas\Alarme_da_animação_e_imagens\mensagens_positivas.txt"
+    path_to_phrases = r"C:\Users\grusi\Gabriel\Programacao\MeusProjetos\Mini_Programas\Alarme_da_animacao_e_imagens\mensagens_positivas.txt"
     while e not in [0,1,2]:
         try:
             e = int(input('Escolha:\n0 - Adicionar uma nova frase\n1 - Colocar mensagens em loop!\n2 - Sair!\nEscolha: '))

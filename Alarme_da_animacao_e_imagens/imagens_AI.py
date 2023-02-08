@@ -17,7 +17,7 @@ def perg(txt= '\n- Qualquer tecla para reiniciar o alarme\n- 9991 para sair do t
 
 
 def main(tempo=300):
-    file = r"C:\Users\grusi\Gabriel\Programacao\MeusProjetos\Mini_Programas\Alarme_da_animação_e_imagens\Alarme_imagens_AI.mp3"
+    file = r"C:\Users\grusi\Gabriel\Programacao\MeusProjetos\Mini_Programas\Alarme_da_animacao_e_imagens\Alarme_imagens_AI.mp3"
     while True:
         sleep(tempo)
         t = th.Thread(target= perg)
