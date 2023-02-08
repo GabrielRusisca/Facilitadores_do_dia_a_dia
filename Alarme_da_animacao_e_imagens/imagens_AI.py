@@ -35,7 +35,11 @@ def main(tempo=300):
 
 
 def imagens_AI():
-    tempo = int(input('\nDuração do temporizador: '))
+    try:
+        tempo = int(input('\nDuração do temporizador: '))
+    except:
+        print('Por padrão serão 300 segundos')
+        tempo = 300
     ai = th.Thread(target= main,args=[tempo])
     ai.start()
 
