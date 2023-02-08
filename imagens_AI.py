@@ -21,15 +21,15 @@ def main(tempo=300):
     while True:
         sleep(tempo)
         t = th.Thread(target= perg)
-        t.start()_
+        t.start()
         while True:
-            os.system(f"{file}")
             if decision == 0:
                 break
             elif decision == 1:
                 print('\nTemporizador encerrado!')
                 force_close_music_program()
                 exit()
+            os.system(f"{file}")
             sleep(31)            
 
 
